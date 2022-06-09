@@ -15,12 +15,73 @@ body{
     margin: auto;
     width:85%;
     background-color: rgb(80, 10, 243);
+    overflow: scroll;
 }
-header{
-    background-color: aquamarine;
-}
-header h1{
+/* header style*/
+
+header>h1{
     font-size:36pt;
     margin: 35px 0px 0px 0px;
     padding: 15px 0px 15px 0px;
+    background-color: rgb(214, 164, 239);
 }
+header> h3{
+    font-size: 24pts;
+    margin:0px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(214, 164, 239);
+}
+
+h2{
+    font-family: arial;
+    font-size: 22pt;
+    text-align: left;
+    margin:0;
+    padding: 15px 0px 0px 15px; 
+    color: black;
+    background-color: rgb(231, 221, 240);
+}
+img{
+    top:-90px;
+    float:right;
+    align-items: right;
+}
+/*Navigation List*/
+
+nav{
+    background-color:rgb(214, 164, 239);
+    color:rgb(238, 246, 203);
+    text-align: center;
+    width:25%;
+    margin:0px;
+    padding:0px;
+    height: 1000px;
+    float:left;
+}
+p{
+    margin:15px;
+    padding:15px;
+}
+
+/* Section style */
+section{
+    background-color: rgba(214, 164, 239,.3)
+}
+section#table> table{
+    background-color: rgba(214, 164, 239,.3);
+}
+/* Table Style*/
+
+table.assignmenttable{
+    width:75%;
+    padding:15px 15px;
+    float:right;
+    border-collapse:collapse;
+    padding: 2px 5px 2px 5px;
+    
+}
+th{
+    background-color: rgba(47, 60, 237,.2);
+    width:60%;
+}
+
