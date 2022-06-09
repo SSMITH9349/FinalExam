@@ -41,16 +41,16 @@ h2{
     color: black;
     background-color: rgb(231, 221, 240);
 }
-img{
-    top: -50px;px;
-    float:right;
-    align-items: right;
+header img{
+  position:relative;
+  display: block;
+  float: right;
 }
 /*Navigation List*/
 
 nav{
     background-color:rgb(214, 164, 239);
-    color:rgb(238, 246, 203);
+    color:rgb(214,164,239);
     text-align: center;
     width:25%;
     margin:0px;
@@ -85,3 +85,9 @@ th{
     width:60%;
 }
 
+nav a:hover{
+    color:white;
+}
+nav a:link{
+    text-decoration:none;
+}
