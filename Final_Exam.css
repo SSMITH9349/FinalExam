@@ -64,11 +64,11 @@ p{
 }
 
 /* Section style */
-aside{
-    background-color: rgb(rgb(145, 255, 0));
+section{
+    background-color: rgba(214, 164, 239,.3)
 }
 section#table> table{
-    background-color: rgb(207, 165, 210);
+    background-color: rgba(214, 164, 239,.3);
 }
 /* Table Style*/
 
