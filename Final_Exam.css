@@ -18,17 +18,27 @@ body{
 }
 /* header style*/
 
-header h1{
+header>h1{
     font-size:36pt;
     margin: 35px 0px 0px 0px;
     padding: 15px 0px 15px 0px;
     background-color: aquamarine;
 }
-header h3{
+header> h3{
     font-size: 24pts;
     margin:0px;
     padding: 0px 15px 0px 15px;
     background-color: aquamarine;
+}
+
+h2{
+    font-family: arial;
+    font-size: 22pt;
+    text-align: left;
+    margin:0;
+    padding: 15px 0px 0px 15px; 
+    color: black;
+    background-color: antiquewhite;
 }
 /*Navigation List*/
 
@@ -40,7 +50,16 @@ nav{
     margin:0px;
     padding:0px;
     height: 100%;
+    float:left;
 }
 
 /* Table Style*/
+
+table.assignmenttable{
+    width:75%;
+    padding:15px 15px;
+    float:right;
+    border-collapse:collapse;
+    padding: 2px 5px 2px 5px;
+}
 
