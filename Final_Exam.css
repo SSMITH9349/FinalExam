@@ -16,11 +16,16 @@ body{
     width:85%;
     background-color: rgb(80, 10, 243);
 }
-header{
-    background-color: aquamarine;
-}
+
 header h1{
     font-size:36pt;
     margin: 35px 0px 0px 0px;
     padding: 15px 0px 15px 0px;
+    background-color: aquamarine;
+}
+header h3{
+    font-size: 24pts;
+    margin:0px;
+    padding: 0px 15px 0px 15px;
+    background-color: aquamarine;
 }
